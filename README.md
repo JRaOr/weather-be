@@ -1,16 +1,13 @@
-# Google Meet Clone Server
+# Weather App
 
-> Descripcion: Clon de Google Meet creado unicamente para fines didacticos y con mucha suerte ganar un
-> nuevo teclado, participando en la Twilio Hackathon de [midudev](https://github.com/midudev).
+> Weather App para la Rapid Api Hackathon de [midudev](https://github.com/midudev).
 
-- Server Link: https://github.com/JRaOr/GoogleMeet-clone-server
-- Frontend Application Link: https://github.com/JRaOr/GoogleMeet-clone
-- Live app: https://meetclone.gerardoraor.com
+- Server Link: https://github.com/JRaOr/weather-be
+- Frontend Application Link: https://github.com/JRaOr/weather-fe
+- Live app: https://weather.gerardoraor.com
 ##### Tecnologias utilizadas
 
 - [NextJs](https://nextjs.org/) - The React Framework for Production!
-- [Twilio](https://www.twilio.com/es-mx/) - Interacción inteligente con el cliente, a escala.
-- [Redux](https://es.redux.js.org/) - Redux es un contenedor predecible del estado de aplicaciones JavaScript.
 - [TailwindCSS](https://tailwindcss.com/) - Rapidly build modern websites without ever leaving your HTML.
 - [Flask](https://flask.palletsprojects.com/en/2.1.x/) - Flask is a lightweight WSGI web application framework.
 - [AWS](https://aws.amazon.com/es/) - Amazon Web Services, Route53, SNS, S3
@@ -22,8 +19,8 @@
 Instalacion de dependencias!
 
 ```sh
-git clone https://github.com/JRaOr/GoogleMeet-clone
-cd GoogleMeet-clone
+git clone https://github.com/JRaOr/weather-fe
+cd weather-fe
 npm i
 ```
 Crea un archivo .env en el directorio raiz, similar a .env.demo, agrega el api endpoint de la aplicacion en flask (ejemplo).
@@ -40,8 +37,8 @@ npm run dev
 Instalacion de dependencias!
 
 ```sh
-git clone https://github.com/JRaOr/GoogleMeet-clone-server
-cd GoogleMeet-clone-server
+git clone https://github.com/JRaOr/weather-be
+cd weather-be
 pip install requirements.txt
 ```
 Crea un archivo .env en el directorio raiz, similar a .env.demo, agrega las keys de cada recurso y despues ejecuta.
