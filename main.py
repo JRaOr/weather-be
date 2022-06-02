@@ -6,9 +6,6 @@ from dotenv import load_dotenv
 load_dotenv()
 import jwt
 import datetime
-from user.user import user
-from picture.picture import picture
-from room.room import room
 
 app = Flask(__name__)
 app.secret_key = os.getenv('SECRET_KEY')
